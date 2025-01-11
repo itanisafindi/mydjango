@@ -29,26 +29,25 @@ ALLOWED_HOSTS = []
 
 
 # Application definition
-
+    
 INSTALLED_APPS = [
+    'unfold',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'django_extensions',
+    
     'Matkul',
     'mahasiswa',
     'prodi',
-    # 'Keranjang',
-    # 'Konsumen',
-    # 'Laporan',
-    # 'Member',
-    # 'Pesan',
-    'Platfrom_E_commerce_mobile',
-    # 'Produk',
-    # 'Transaksi',
-    # 'Admin',
+    'Sistem_Rekrutme_Karyawan',
+    'Pelamar_',
+    'Posisi_',
+    'Status_',
+    'Wawancara_',
 
     
 
